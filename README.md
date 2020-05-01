@@ -1,6 +1,6 @@
 ## regexSearch
 
-It is a chrome extension which using which you can search regex expression in any webpage.  Default chrome search does not allow to search regex expression.
+It is a chrome extension using which you can search regex expression in any webpage.  Default chrome search does not allow to search regex expression.
 
 ## How to use this extension :
 * Clone this repo
