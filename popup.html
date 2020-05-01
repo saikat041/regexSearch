@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: space-around;">
+
+        <div>
+            <input type="text" id="regexSearchInput">
+        </div>
+
+        <div style="border: 1px solid #CDCDCD;">
+        </div>
+
+        <div>
+            <input type="checkbox" name="case" style="margin-left:10px" id="caseCheckBox">
+            <label for="case">Match Case </label>
+        </div>
+
+        <div>
+            <button id="closeBtn">X</button>
+        </div>
+
+    </div>
+
+
+    <style>
+        body {
+            width: 350px;
+        }
+
+        #regexSearchInput {
+            padding: 5px;
+            border: 0px solid black;
+        }
+
+        #regexSearchInput:focus {
+            outline: none;
+            border: 0px solid black;
+        }
+
+        #closeBtn {
+            padding: 0px 5px;
+            background: transparent;
+            color: black;
+            border: 1px solid grey;
+            margin: 0px 10px;
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
